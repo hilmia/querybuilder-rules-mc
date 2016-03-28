@@ -10,10 +10,10 @@
 	"homepage": "http://www.riffyn.com",
 	"repository": {
     	"type": "git",
-    	"url": "https://github.com/riffyn/querybuilder-rules.git"
+    	"url": "https://github.com/RiffynInc/querybuilder-rules.git"
   	},
   	"bugs": {
-  		"url": "https://github.com/riffyn/querybuilder-rules/issues"
+  		"url": "https://github.com/RiffynInc/querybuilder-rules/issues"
   	},
 	"dependencies": {
 		"underscore": "1.8.3"
