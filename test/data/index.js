@@ -5,4 +5,4 @@ module.exports = {
 	date: require('./date'),
 	boolean: require('./boolean'),
 	complex: require('./complex')
-}
+};
