@@ -80,7 +80,7 @@ Utils.changeType = function(value, type, boolAsInt) {
  * @return {string}
  */
 Utils.escapeString = function(value) {
-    if (typeof value != 'string') {
+    if (typeof value !== 'string') {
         return value;
     }
 

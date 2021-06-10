@@ -11,7 +11,7 @@ var QueryBuilder = function() {
 
 	this.getMongo = function() {
 		return MongoSupport.getMongo.apply(MongoSupport, arguments);
-	}
+	};
 };
 
 module.exports = QueryBuilder;
