@@ -9,20 +9,20 @@
 	},
 	"homepage": "http://www.riffyn.com",
 	"repository": {
-    	"type": "git",
-    	"url": "https://github.com/RiffynInc/querybuilder-rules.git"
-  	},
-  	"bugs": {
-  		"url": "https://github.com/RiffynInc/querybuilder-rules/issues"
-  	},
+		"type": "git",
+		"url": "https://github.com/RiffynInc/querybuilder-rules.git"
+	},
+	"bugs": {
+		"url": "https://github.com/RiffynInc/querybuilder-rules/issues"
+	},
 	"dependencies": {
-		"underscore": "1.8.3"
+		"underscore": "^1.13.1"
 	},
 	"devDependencies": {
-   		"jshint": "2.9.1",
-    	"mocha": "2.4.5"
-  	},
-  	"license": "MIT",
-  	"private": false,
-  	"main": "index.js"
+		"jshint": "^2.13.0",
+		"mocha": "^7.2.0"
+	},
+	"license": "MIT",
+	"private": false,
+	"main": "index.js"
 }
