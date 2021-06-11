@@ -104,7 +104,7 @@ var MongoSupport = function MongoSupport() {
 	});
 
 	this.operators = defaults.OPERATORS;
-}
+};
 
 util.inherits(MongoSupport, PluginBase);
 
@@ -170,6 +170,6 @@ MongoSupport.prototype.getMongo = function(data) {
         }
         return res;
     }(data));
-}
+};
 
 module.exports = new MongoSupport();

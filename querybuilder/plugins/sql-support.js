@@ -211,7 +211,7 @@ var SqlSupport = function SqlSupport() {
     });
 
     this.operators = defaults.OPERATORS;
-}
+};
 
 util.inherits(SqlSupport, PluginBase);
 
@@ -309,7 +309,7 @@ SqlSupport.prototype.getSQL = function(stmt, nl, data) {
             sql: sql
         };
     }
-}
+};
 
 function getStmtConfig(stmt) {
     var config = stmt.match(/(question_mark|numbered|named)(?:\((.)\))?/);
